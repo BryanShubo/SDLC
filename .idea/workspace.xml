@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91afe9e4-4a09-497a-a313-653c306bbfb2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Consumer.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Consumer_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Consumer_war_exploded.xml" />
-    </list>
+    <list default="true" id="91afe9e4-4a09-497a-a313-653c306bbfb2" name="Default" comment="" />
     <ignored path="Consumer.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -437,12 +433,12 @@
       <changelist id="91afe9e4-4a09-497a-a313-653c306bbfb2" name="Default" comment="" />
       <created>1434852873588</created>
       <updated>1434852873588</updated>
-      <workItem from="1434852875008" duration="205000" />
+      <workItem from="1434852875008" duration="822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205000" />
+    <option name="totallyTimeSpent" value="822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="1" />
