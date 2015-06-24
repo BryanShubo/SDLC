@@ -2,26 +2,37 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
-       xmlns:mvc="http://www.springframework.org/schema/mvc"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
-		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
+       xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:jee="http://www.springframework.org/schema/jee"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-4.0.xsd
+		http://www.springframework.org/schema/mvc
+		http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee.xsd"
+        >
 
     <!-- 配置自动扫描的包 -->
     <context:component-scan base-package="java"></context:component-scan>
 
     <mvc:annotation-driven/>
 
-    <bean id="connFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
-        <property name="brokerURL" value="tcp://localhost:61616"/>
-    </bean>
+
 
     <bean id="consumerL" class="JMS.listener.ConsumerL"/>
     <bean id="consumerAdapter" class="JMS.adapter.ConsumerAdapter"/>
 
+   <!--  <bean id="connFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+        <property name="brokerURL" value="tcp://localhost:61616"/>
+    </bean>
+
     <bean id="defaultDestination" class="org.apache.activemq.command.ActiveMQQueue">
         <constructor-arg value="CONSUMER.QUEUE"/>
     </bean>
+
+    <bean id="rmeDestination" class="org.apache.activemq.command.ActiveMQQueue">
+        <constructor-arg value="RME.QUEUE"/>
+    </bean>
+    -->
 
     <bean id="JMSMessageListenerContainer" class="org.springframework.jms.listener.DefaultMessageListenerContainer">
         <property name="connectionFactory" ref="connFactory"/>
@@ -35,7 +46,10 @@
         <property name="defaultDestination" ref="rmeDestination"/>
     </bean>
 
-    <bean id="rmeDestination" class="org.apache.activemq.command.ActiveMQQueue">
-        <constructor-arg value="RME.QUEUE"/>
-    </bean>
+
+
+    <jee:jndi-lookup id="connFactory" jndi-name="java:comp/env/jms/MongoCF"/>
+    <jee:jndi-lookup id="defaultDestination" jndi-name="java:comp/env/jms/ConsumerQ"/>
+    <jee:jndi-lookup id="rmeDestination" jndi-name="java:comp/env/jms/RmeQ"/>
+
 </beans>
