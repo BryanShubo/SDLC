@@ -19,6 +19,14 @@
 
 <div id="form">
     <form:form modelAttribute="vendor" action="vendor">
+
+        <div class="message">
+            <c:if test="${!empty message}">
+                <c:out value="${message}"></c:out>
+            </c:if>
+
+        </div>
+
         <fieldset>
             <legend> Vendor Information</legend>
             <div>
@@ -48,7 +56,9 @@
 
             <div>
                 <label for="form">State</label>
-                <form:input path="state" />
+                <form:select path="state" >
+                    <form:option value="Alabama">Alabama</form:option>
+                </form:select>
             </div>
 
             <div>

@@ -1,2 +1,4 @@
+jms\producer\sender\MessageSender.class
+jms\producer\service\MessageService.class
 jms\producer\model\Vendor.class
 jms\producer\controller\ProducerController.class
