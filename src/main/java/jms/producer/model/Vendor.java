@@ -1,6 +1,8 @@
 package jms.producer.model;
 
+import org.springframework.stereotype.Component;
 
+@Component
 public class Vendor {
 
     private String vendorName;
