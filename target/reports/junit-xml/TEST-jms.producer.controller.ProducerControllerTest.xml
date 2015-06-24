@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Bryan-PC" name="jms.producer.controller.ProducerControllerTest" tests="2" time="1.17" timestamp="2015-06-24T04:41:53">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="src.test.dir" value="src/test/java" />
+    <property name="coverage.summaryxml.dir" value="target/reports/cobertura-summary-xml" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Windows 8.1" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_71\jre\classes" />
+    <property name="reports.html.dir" value="target/reports/junit-html" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 13.1.6\lib\ant" />
+    <property name="java.runtime.version" value="1.7.0_71-b14" />
+    <property name="cobertura.dir" value="C:/cobertura-2.0.3-bin/cobertura-2.0.3" />
+    <property name="user.name" value="Shubo" />
+    <property name="test.classes.dir" value="target/test-classes" />
+    <property name="web.xml" value="WEB-INF/web.xml" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_71\jre\bin" />
+    <property name="reports.dir" value="target/reports" />
+    <property name="ant.project.default-target" value="coverage" />
+    <property name="ant.project.name" value="Producer" />
+    <property name="java.version" value="1.7.0_71" />
+    <property name="coverage.html.dir" value="target/reports/cobertura-html" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_71\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="classes.dir" value="target/classes" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_71\jre" />
+    <property name="dist.dir" value="dist" />
+    <property name="src.resources" value="src/main/resources" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\Users\Shubo\Desktop\GitHub\SDLC\SDLC\build.xml" />
+    <property name="os.version" value="6.3" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="24.71-b01" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 13.1.6\lib\ant\lib" />
+    <property name="apache.webapp" value="C:/Tomcat/apache-tomcat-p/webapps" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="src.webapp" value="src/main/webapp" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="reports.xml.dir" value="target/reports/junit-xml" />
+    <property name="user.home" value="C:\Users\Shubo" />
+    <property name="ant.file.type.Producer" value="file" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="coverage.xml.dir" value="target/reports/cobertura-xml" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_71\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_71\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Python27;C:\Program Files\groovy-2.3.8\bin;C:\Program Files\gradle-2.2.1\bin;C:\Program Files\apache-maven-3.2.3\bin;C:\Program Files\Java\jdk1.7.0_71\bin;C:\Program Files\Dell\DW WLAN Card;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.1\bin;;C:\Users\Shubo\AppData\Local\Code\bin;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner jms.producer.controller.ProducerControllerTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Shubo\Desktop\GitHub\SDLC\SDLC\target\reports\junit-xml\TEST-jms.producer.controller.ProducerControllerTest.xml crashfile=C:\Users\Shubo\Desktop\GitHub\SDLC\SDLC\junitvmwatcher4234194750260684104.properties propsfile=C:\Users\Shubo\Desktop\GitHub\SDLC\SDLC\junit5361942702227841205.properties" />
+    <property name="java.class.path" value="C:\Users\Shubo\Desktop\GitHub\SDLC\SDLC\target\instrumented;C:\Users\Shubo\Desktop\GitHub\SDLC\SDLC\target\test-classes;C:\Tomcat\apache-tomcat-p\lib\activemq-all-5.5.1.jar;C:\Tomcat\apache-tomcat-p\lib\annotations-api.jar;C:\Tomcat\apache-tomcat-p\lib\asm-4.1.jar;C:\Tomcat\apache-tomcat-p\lib\asm-analysis-4.1.jar;C:\Tomcat\apache-tomcat-p\lib\asm-commons-4.1.jar;C:\Tomcat\apache-tomcat-p\lib\asm-tree-4.1.jar;C:\Tomcat\apache-tomcat-p\lib\asm-util-4.1.jar;C:\Tomcat\apache-tomcat-p\lib\catalina-ant.jar;C:\Tomcat\apache-tomcat-p\lib\catalina-ha.jar;C:\Tomcat\apache-tomcat-p\lib\catalina-storeconfig.jar;C:\Tomcat\apache-tomcat-p\lib\catalina-tribes.jar;C:\Tomcat\apache-tomcat-p\lib\catalina.jar;C:\Tomcat\apache-tomcat-p\lib\cglib-nodep-3.1.jar;C:\Tomcat\apache-tomcat-p\lib\cobertura-2.0.3.jar;C:\Tomcat\apache-tomcat-p\lib\commons-logging-1.2.jar;C:\Tomcat\apache-tomcat-p\lib\easymock-3.3.jar;C:\Tomcat\apache-tomcat-p\lib\ecj-4.4.2.jar;C:\Tomcat\apache-tomcat-p\lib\el-api.jar;C:\Tomcat\apache-tomcat-p\lib\gson-2.3.1.jar;C:\Tomcat\apache-tomcat-p\lib\hamcrest-core-1.3.jar;C:\Tomcat\apache-tomcat-p\lib\jasper-el.jar;C:\Tomcat\apache-tomcat-p\lib\jasper.jar;C:\Tomcat\apache-tomcat-p\lib\jsp-api.jar;C:\Tomcat\apache-tomcat-p\lib\junit-4.11.jar;C:\Tomcat\apache-tomcat-p\lib\log4j-1.2.17.jar;C:\Tomcat\apache-tomcat-p\lib\oro-2.0.8.jar;C:\Tomcat\apache-tomcat-p\lib\servlet-api.jar;C:\Tomcat\apache-tomcat-p\lib\slf4j-api-1.7.6.jar;C:\Tomcat\apache-tomcat-p\lib\slf4j-log4j12-1.7.6.jar;C:\Tomcat\apache-tomcat-p\lib\spring-aop-4.1.6.RELEASE.jar;C:\Tomcat\apache-tomcat-p\lib\spring-beans-4.1.6.RELEASE.jar;C:\Tomcat\apache-tomcat-p\lib\spring-context-4.1.6.RELEASE.jar;C:\Tomcat\apache-tomcat-p\lib\spring-core-4.1.6.RELEASE.jar;C:\Tomcat\apache-tomcat-p\lib\spring-expression-4.1.6.RELEASE.jar;C:\Tomcat\apache-tomcat-p\lib\spring-jms-4.1.6.RELEASE.jar;C:\Tomcat\apache-tomcat-p\lib\spring-messaging-4.1.6.RELEASE.jar;C:\Tomcat\apache-tomcat-p\lib\spring-tx-4.1.6.RELEASE.jar;C:\Tomcat\apache-tomcat-p\lib\spring-web-4.1.6.RELEASE.jar;C:\Tomcat\apache-tomcat-p\lib\spring-webmvc-4.1.6.RELEASE.jar;C:\Tomcat\apache-tomcat-p\lib\tomcat-api.jar;C:\Tomcat\apache-tomcat-p\lib\tomcat-coyote.jar;C:\Tomcat\apache-tomcat-p\lib\tomcat-dbcp.jar;C:\Tomcat\apache-tomcat-p\lib\tomcat-i18n-es.jar;C:\Tomcat\apache-tomcat-p\lib\tomcat-i18n-fr.jar;C:\Tomcat\apache-tomcat-p\lib\tomcat-i18n-ja.jar;C:\Tomcat\apache-tomcat-p\lib\tomcat-jdbc.jar;C:\Tomcat\apache-tomcat-p\lib\tomcat-jni.jar;C:\Tomcat\apache-tomcat-p\lib\tomcat-util-scan.jar;C:\Tomcat\apache-tomcat-p\lib\tomcat-util.jar;C:\Tomcat\apache-tomcat-p\lib\tomcat-websocket.jar;C:\Tomcat\apache-tomcat-p\lib\websocket-api.jar;C:\Tomcat\apache-tomcat-p\lib\xalan-2.7.2.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 13.1.6\lib\ant\lib\ant-launcher.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 13.1.6\lib\ant\lib\ant.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 13.1.6\lib\ant\lib\ant-junit.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="warfile" value="dist/producer.war" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.io.tmpdir" value="C:\Users\Shubo\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="instrumented.dir" value="target/instrumented" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_71\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\Shubo\Desktop\GitHub\SDLC\SDLC" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="C:\Users\Shubo\Desktop\GitHub\SDLC\SDLC" />
+    <property name="apache.lib" value="C:/Tomcat/apache-tomcat-p/lib" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 13.1.6\lib\ant\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="ant.file.Producer" value="C:\Users\Shubo\Desktop\GitHub\SDLC\SDLC\build.xml" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="src.dir" value="src/main/java" />
+    <property name="ant.project.invoked-targets" value="coverage" />
+  </properties>
+  <testcase classname="jms.producer.controller.ProducerControllerTest" name="testRenderVendorPage" time="0.711" />
+  <testcase classname="jms.producer.controller.ProducerControllerTest" name="testProcessRequest" time="0.419" />
+  <system-out><![CDATA[vendorPage
+vendorPage
+]]></system-out>
+  <system-err><![CDATA[SLF4J: The requested version 1.6.99 by your slf4j binding is not compatible with [1.5.5, 1.5.6, 1.5.7, 1.5.8, 1.5.9, 1.5.10, 1.5.11]
+SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+]]></system-err>
+</testsuite>

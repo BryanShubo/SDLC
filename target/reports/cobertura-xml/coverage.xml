@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.9649122807017544" branch-rate="1.0" lines-covered="55" lines-valid="57" branches-covered="0" branches-valid="0" complexity="1.0434782608695652" version="2.0.3" timestamp="1435120917001">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package name="jms.producer.controller" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="jms.producer.controller.ProducerController" filename="jms/producer/controller/ProducerController.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="22" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="20" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="processRequest" signature="(Ljms/producer/model/Vendor;Lorg/springframework/ui/Model;)Lorg/springframework/web/servlet/ModelAndView;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="35" hits="1" branch="false"/>
+								<line number="36" hits="1" branch="false"/>
+								<line number="37" hits="1" branch="false"/>
+								<line number="39" hits="1" branch="false"/>
+								<line number="40" hits="1" branch="false"/>
+								<line number="41" hits="1" branch="false"/>
+								<line number="42" hits="1" branch="false"/>
+								<line number="43" hits="1" branch="false"/>
+								<line number="44" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="renderVendorPage" signature="(Ljms/producer/model/Vendor;Lorg/springframework/ui/Model;)Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="29" hits="2" branch="false"/>
+								<line number="30" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="20" hits="2" branch="false"/>
+						<line number="22" hits="1" branch="false"/>
+						<line number="29" hits="2" branch="false"/>
+						<line number="30" hits="2" branch="false"/>
+						<line number="35" hits="1" branch="false"/>
+						<line number="36" hits="1" branch="false"/>
+						<line number="37" hits="1" branch="false"/>
+						<line number="39" hits="1" branch="false"/>
+						<line number="40" hits="1" branch="false"/>
+						<line number="41" hits="1" branch="false"/>
+						<line number="42" hits="1" branch="false"/>
+						<line number="43" hits="1" branch="false"/>
+						<line number="44" hits="1" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="jms.producer.model" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="jms.producer.model.Vendor" filename="jms/producer/model/Vendor.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="6" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="getAddress" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="44" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getCity" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="52" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getEmail" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="84" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getFirstName" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="28" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getLastName" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="36" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getPhoneNumber" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="76" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getState" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="60" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getVendorName" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="20" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getZipCode" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="68" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="setAddress" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="48" hits="2" branch="false"/>
+								<line number="49" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setCity" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="56" hits="2" branch="false"/>
+								<line number="57" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setEmail" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="88" hits="2" branch="false"/>
+								<line number="89" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setFirstName" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="32" hits="2" branch="false"/>
+								<line number="33" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setLastName" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="40" hits="2" branch="false"/>
+								<line number="41" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setPhoneNumber" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="80" hits="2" branch="false"/>
+								<line number="81" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setState" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="64" hits="2" branch="false"/>
+								<line number="65" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setVendorName" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="24" hits="2" branch="false"/>
+								<line number="25" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setZipCode" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="72" hits="2" branch="false"/>
+								<line number="73" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="93" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="6" hits="5" branch="false"/>
+						<line number="20" hits="1" branch="false"/>
+						<line number="24" hits="2" branch="false"/>
+						<line number="25" hits="2" branch="false"/>
+						<line number="28" hits="1" branch="false"/>
+						<line number="32" hits="2" branch="false"/>
+						<line number="33" hits="2" branch="false"/>
+						<line number="36" hits="1" branch="false"/>
+						<line number="40" hits="2" branch="false"/>
+						<line number="41" hits="2" branch="false"/>
+						<line number="44" hits="1" branch="false"/>
+						<line number="48" hits="2" branch="false"/>
+						<line number="49" hits="2" branch="false"/>
+						<line number="52" hits="1" branch="false"/>
+						<line number="56" hits="2" branch="false"/>
+						<line number="57" hits="2" branch="false"/>
+						<line number="60" hits="1" branch="false"/>
+						<line number="64" hits="2" branch="false"/>
+						<line number="65" hits="2" branch="false"/>
+						<line number="68" hits="1" branch="false"/>
+						<line number="72" hits="2" branch="false"/>
+						<line number="73" hits="2" branch="false"/>
+						<line number="76" hits="1" branch="false"/>
+						<line number="80" hits="2" branch="false"/>
+						<line number="81" hits="2" branch="false"/>
+						<line number="84" hits="1" branch="false"/>
+						<line number="88" hits="2" branch="false"/>
+						<line number="89" hits="2" branch="false"/>
+						<line number="93" hits="1" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="jms.producer.sender" line-rate="0.75" branch-rate="1.0" complexity="2.0">
+			<classes>
+				<class name="jms.producer.sender.MessageSender" filename="jms/producer/sender/MessageSender.java" line-rate="0.75" branch-rate="1.0" complexity="2.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="15" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="13" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="send" signature="(Ljava/lang/String;)V" line-rate="0.6666666666666666" branch-rate="1.0">
+							<lines>
+								<line number="22" hits="1" branch="false"/>
+								<line number="23" hits="1" branch="false"/>
+								<line number="24" hits="0" branch="false"/>
+								<line number="26" hits="0" branch="false"/>
+								<line number="27" hits="1" branch="false"/>
+								<line number="29" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="2" branch="false"/>
+						<line number="15" hits="1" branch="false"/>
+						<line number="22" hits="1" branch="false"/>
+						<line number="23" hits="1" branch="false"/>
+						<line number="24" hits="0" branch="false"/>
+						<line number="26" hits="0" branch="false"/>
+						<line number="27" hits="1" branch="false"/>
+						<line number="29" hits="1" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="jms.producer.service" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="jms.producer.service.MessageService" filename="jms/producer/service/MessageService.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="14" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="12" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="process" signature="(Ljms/producer/model/Vendor;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="20" hits="1" branch="false"/>
+								<line number="21" hits="1" branch="false"/>
+								<line number="22" hits="1" branch="false"/>
+								<line number="23" hits="1" branch="false"/>
+								<line number="24" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="12" hits="2" branch="false"/>
+						<line number="14" hits="1" branch="false"/>
+						<line number="20" hits="1" branch="false"/>
+						<line number="21" hits="1" branch="false"/>
+						<line number="22" hits="1" branch="false"/>
+						<line number="23" hits="1" branch="false"/>
+						<line number="24" hits="1" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
